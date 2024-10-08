@@ -49,7 +49,7 @@ const InformationCard = ({
 }) => {
   return (
     <div className="flex flex-1 flex-col text-center items-center align-center justify-center m-1 border-2 border-[#E1E8FF] rounded-xl px-10 pt-6 pb-2">
-      <div className="relative">
+      <div className="relative flex-1">
         <ImageComponet fileName={filePath} className="rounded-xl" />
         <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-white to-transparent"></div>
       </div>
