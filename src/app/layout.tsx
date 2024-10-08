@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 const recoletaRegular = localFont({
-  src: "./fonts/recoleta/Recoleta-Regular.otf",
+  src: "../fonts/recoleta/Recoleta-Regular.otf",
 });
 
 export const metadata: Metadata = {
