@@ -42,7 +42,7 @@ const reviewsArray = [
 
 export const Reviews = () => {
   return (
-    <div className="mx-48 mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    <div className="relative mx-48 mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
       {reviewsArray.map((item) => (
         <ReviewCard
           image={item.image}
@@ -51,6 +51,8 @@ export const Reviews = () => {
           text={item.text}
         />
       ))}
+
+      <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white to-transparent"></div>
     </div>
   );
 };
