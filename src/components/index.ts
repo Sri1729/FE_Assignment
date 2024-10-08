@@ -5,3 +5,4 @@ export * from "./Clients";
 
 export * from "./Services";
 export * from "./Testimonials";
+export * from "./WhyUs";
