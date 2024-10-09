@@ -49,6 +49,7 @@ export const Reviews = () => {
           job={item.job}
           name={item.name}
           text={item.text}
+          key={item.name}
         />
       ))}
 

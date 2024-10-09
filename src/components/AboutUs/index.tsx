@@ -35,7 +35,12 @@ export const AboutUs = () => {
 
       <div className="flex flex-1 mx-28 w-5/6">
         {founders.map((item) => (
-          <Founder image={item.image} name={item.name} role={item.role} />
+          <Founder
+            image={item.image}
+            name={item.name}
+            role={item.role}
+            key={item.name}
+          />
         ))}
       </div>
     </div>
