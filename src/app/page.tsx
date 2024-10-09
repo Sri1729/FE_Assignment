@@ -1,8 +1,10 @@
 import {
   AboutUs,
+  Banner,
   Clients,
   EcoSystem,
   Faq,
+  Footer,
   Header,
   Intro,
   Services,
@@ -23,6 +25,8 @@ export default function Home() {
       <EcoSystem />
       <AboutUs />
       <Faq />
+      <Banner />
+      <Footer />
     </div>
   );
 }

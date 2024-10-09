@@ -9,3 +9,5 @@ export * from "./WhyUs";
 export * from "./EcoSystem";
 export * from "./AboutUs";
 export * from "./Faq";
+export * from "./Banner";
+export * from "./Footer";
