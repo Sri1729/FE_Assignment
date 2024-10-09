@@ -1,4 +1,5 @@
 import {
+  AboutUs,
   Clients,
   EcoSystem,
   Header,
@@ -19,6 +20,7 @@ export default function Home() {
       <Testimonials />
       <WhyUs />
       <EcoSystem />
+      <AboutUs />
     </div>
   );
 }

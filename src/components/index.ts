@@ -7,3 +7,4 @@ export * from "./Services";
 export * from "./Testimonials";
 export * from "./WhyUs";
 export * from "./EcoSystem";
+export * from "./AboutUs";
