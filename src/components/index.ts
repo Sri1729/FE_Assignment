@@ -8,3 +8,4 @@ export * from "./Testimonials";
 export * from "./WhyUs";
 export * from "./EcoSystem";
 export * from "./AboutUs";
+export * from "./Faq";

@@ -2,6 +2,7 @@ import {
   AboutUs,
   Clients,
   EcoSystem,
+  Faq,
   Header,
   Intro,
   Services,
@@ -21,6 +22,7 @@ export default function Home() {
       <WhyUs />
       <EcoSystem />
       <AboutUs />
+      <Faq />
     </div>
   );
 }
