@@ -8,7 +8,7 @@ export const Banner = () => {
       <div className="flex flex-1 justify-center align-center items-center">
         <div className="w-5/6">
           <p className="text-5xl text-white">
-            Ready to <p className="text-[#43CAFB] inline">Secure</p> Your
+            Ready to <span className="text-[#43CAFB] inline">Secure</span> Your
             Financial Future?
           </p>
           <p className="text-white text-base mt-2">

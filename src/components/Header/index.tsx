@@ -12,13 +12,13 @@ export const Header = () => {
         <div>
           <Link
             className="mr-8 text-primaryBlue text-base font-medium"
-            href={"/"}
+            href={"#services"}
           >
             Services
           </Link>
           <Link
             className="mr-8 text-primaryBlue text-base font-medium"
-            href={"/"}
+            href={"#about-us"}
           >
             About
           </Link>

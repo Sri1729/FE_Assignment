@@ -19,11 +19,15 @@ export default function Home() {
       <Intro />
       <Clients />
 
-      <Services />
+      <section id="services">
+        <Services />
+      </section>
       <Testimonials />
       <WhyUs />
       <EcoSystem />
-      <AboutUs />
+      <section id="about-us">
+        <AboutUs />
+      </section>
       <Faq />
       <Banner />
       <Footer />
