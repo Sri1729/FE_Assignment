@@ -16,8 +16,9 @@ export const WhyUs = () => {
       </p>
 
       <p className="text-base font-medium text-grey mx-[460px] text-center">
-        Experience meets innovation in your financial journey. We're not just
-        advisors; we're your partners in building lasting wealth.
+        {
+          "Experience meets innovation in your financial journey. We're not just advisors; we're your partners in building lasting wealth."
+        }
       </p>
 
       <Table />

@@ -18,8 +18,9 @@ export const Testimonials = () => {
       </p>
 
       <p className="text-base font-medium text-grey mx-48 mt-4 text-center">
-        Don't just take our word for it. Hear from clients who've transformed
-        their financial future with The Financialist.
+        {
+          "Don't just take our word for it. Hear from clients who've transformed their financial future with The Financialist."
+        }
       </p>
 
       <Reviews />
