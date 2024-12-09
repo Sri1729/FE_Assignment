@@ -12,7 +12,7 @@ export const Banner = () => {
             Financial Future?
           </p>
           <p className="text-white text-base mt-2">
-            Let's start your journey to financial success today.
+            {"Let's start your journey to financial success today."}
           </p>
 
           <button className="bg-white py-2 px-3 text-[#2858E9] rounded-lg mt-16">{`Book a Free call ->`}</button>
