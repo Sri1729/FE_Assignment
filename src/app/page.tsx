@@ -30,6 +30,7 @@ export default function Home() {
       </section>
       <Faq />
       <Banner />
+      <div className="m-50">Testing for updates</div>
       <Footer />
     </div>
   );
